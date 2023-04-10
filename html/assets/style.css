@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto (Google 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif);
+    font-family: Roboto (Google);
     text-align: left;
     background-color: #fff;
     margin: 5px;
@@ -74,7 +74,7 @@ button:hover {
     background-color: #ff5c0f;
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
     
     body {
         font-size: 140%;
@@ -112,12 +112,4 @@ button:hover {
         width: auto;
     }
 
-}
-  
-@media screen and (max-width: 480px) {
-
-    img {
-        display: none;
-    }
-    
 }
